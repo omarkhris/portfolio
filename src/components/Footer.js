@@ -42,11 +42,8 @@ const Footer = () => {
                 </div>
                 <div className='right'>
                     <h4>About me</h4>
-                    <p>Loroumf ofsmfls
-                        ldms
-                        gmails;lgs
-
-                        gl;ds.
+                    <p>
+                        
                     </p>
                     <div className='social'>
                         <FaFacebook size={30} style={{

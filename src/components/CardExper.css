@@ -2,14 +2,17 @@
     width: 100%;
     padding: 6rem 1rem;
     background: #000;
+    display: block;
+    
 }
 
 .cardContainer {
-    max-width: 1140px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+    padding-bottom: 5rem;
+    place-content: center;
 }
 
 .card{
@@ -55,14 +58,29 @@
 
 
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 960px) {
 
     .cardContainer {
-        max-width: 90%;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 40px;
     }
+
+
+
+}
+
+
+@media screen and (max-width: 1400px) {
+
+    .cardContainer {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
+
+    
 
 }
