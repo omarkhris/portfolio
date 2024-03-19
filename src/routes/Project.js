@@ -10,13 +10,10 @@ const Project = () => {
     <div>Project
 
         <Navbar />
-        <PageContent  heading="PROJECT." text="Some of my most recent works"/>
+        <PageContent  heading="PROJECT." text="Some of my most recent works" />
         <Work />
-        <CardExper />
         <Footer />
     </div>
-
-
   )
 }
 

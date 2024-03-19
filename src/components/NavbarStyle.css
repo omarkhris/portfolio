@@ -35,6 +35,7 @@
     display: none;
 }
 
+
 @media screen and (max-width: 1040px) {
     .nav-men {
         flex-direction: column;

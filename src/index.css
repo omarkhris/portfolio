@@ -13,7 +13,7 @@ body{
   background-color: #000;
 }
 
-h1,h4,a,p {
+h1,h4,h3,a,p {
   color: #fff;
   text-decoration: none;
 }
@@ -29,8 +29,10 @@ ul{
   background-color: rgb(248, 217 , 15);
   color: #000;
   border: 1px solid #fff;
-  font-weight: 600;
+  font-weight: 1000;
   cursor: pointer;
+  border-radius: 20% 2rem;
+
 }
 
 .btn-light{

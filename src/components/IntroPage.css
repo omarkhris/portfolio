@@ -43,7 +43,7 @@
 
 .intro .content p{
     font-size: 1.4rem;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
@@ -51,13 +51,44 @@
     margin: 1rem 0.2rem;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 840px) {
     .intro .content h1{
-        font-size: 3rem;
+        font-size: 2rem;
+        padding: 0.2rem 0.5rem 0.5rem;
     }
     
     .intro .content p{
+        font-size: 1.2rem;
+        padding: 0.2rem 0.5rem 0.5rem;
+    }
+
+
+    .content .btn{
+
+            display: block;
+            width: 60%;
+            margin: 1rem auto;
+
+}
+}
+
+@media screen and (max-width: 640px) {
+    .intro .content h1{
         font-size: 1.4rem;
+        padding: 0.2rem 0.5rem 0.5rem;
     }
     
+    .intro .content p{
+        font-size: 1rem;
+        padding: 0.2rem 0.5rem 0.5rem;
+    }
+
+
+    .content .btn{
+
+            display: block;
+            width: 60%;
+            margin: 1rem auto;
+
+}
 }

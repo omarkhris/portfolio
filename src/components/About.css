@@ -1,0 +1,17 @@
+.barrier{
+    text-align: center;
+    border: 3px;
+    text-decoration: dotted;
+    font-size: 45px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .barrier{
+        text-align: center;
+        border: 3px;
+        text-decoration: dotted;
+        font-size: 35px;
+    }
+}

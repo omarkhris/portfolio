@@ -12,12 +12,19 @@ const IntroPage = () => {
             />
         </div>
         <div className='content'>
-            <p>HEllO I am a software engineer</p>
-            <h1>I am a react developer</h1>
+            <p></p>
+            <h1>Hello World!</h1>
+            <p>I am a software engineer with 2 years of professional experience in software development. I've had the opportunity to work on various projects in the e-commerce business domain, utilizing the latest technologies to deliver back-end components, RESTful APIs, and front-end interfaces.</p>
             <div>
                 <Link to={"/projects"} className='btn'
                 >Projects</Link>
                 <Link to={"/contact"} className='btn'>Contact</Link>
+                <button className='btn' onClick={()=>{
+                  const target = document.getElementById('target');
+                  target.scrollIntoView({behavior: 'smooth', block: 'start'}
+                  
+                   )
+                }}>About me</button>
             </div>
         </div>
 
