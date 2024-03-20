@@ -8,6 +8,10 @@ import Contact from "./routes/Contact";
 import Project from "./routes/Project";
 import ScrollToTop from "./routes/ScrollToTop";
 
+// import Amplify from 'aws-amplify';
+// import awsconfig from 'aws-exports.js';
+// Amplify.cofigure(awsconfig);
+
 
 function App() {
 
