@@ -158,7 +158,7 @@ const Form = () => {
     <title>Contact Form</title>
     <link rel='stylesheet' href='Form2.css'/>
   </head>
-  <body>
+  <body className='body'>
   <div className="contact-container">
           <form action="https://api.web3forms.com/submit" method="POST" className="contact-left">
             <div className="contact-left-title">

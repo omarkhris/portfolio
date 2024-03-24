@@ -50,6 +50,11 @@
     z-index: 5;
 } */
 
+.text-Container .par{
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
 
 
 .pic_container_section {

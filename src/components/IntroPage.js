@@ -14,7 +14,7 @@ const IntroPage = () => {
         <div className='content'>
             <p></p>
             <h1>Hello World!</h1>
-            <p>I am a software engineer with 2 years of professional experience in software development. I've had the opportunity to work on various projects in the e-commerce business domain, utilizing the latest technologies to deliver back-end components, RESTful APIs, and front-end interfaces.</p>
+            <p></p>
             <div>
                 <Link to={"/projects"} className='btn'
                 >Projects</Link>

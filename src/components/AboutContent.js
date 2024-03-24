@@ -51,21 +51,13 @@ const AboutContent = () => {
 
                     </div>
                     <div className="text-Container">
-                        <p>
-                            Lmflasmfas flsnflasmflsa mf;smfsa
-                            ;mfs;mfs;s
-                            lmfslmfsa
-                            ll lsfmdlfmsmf;lsdmlsgmf
-
-                            gfmmgfd;
-                            mg;lsdmlsgmflsdm;lsfmdlfmsmf
-                            gddsfpmgf
-                            mds;
+                        <p className="par">
+                        Software engineer with nearly 2 years of professional experience in software development. <br />I've had the opportunity to work on various projects in the e-commerce business domain, <br /> utilizing the latest technologies to deliver back-end components, RESTful APIs, AWS-Services and front-end interfaces.</p>
                             <br />
                             <br />
                             <br />
                             <br />
-                        </p>
+                        
                         <p><br /></p>
                         <img
                             src={arrow} alt="" className="icon_arrow"
