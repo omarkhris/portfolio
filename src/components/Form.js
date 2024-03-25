@@ -152,35 +152,35 @@ const Form = () => {
       {/* <script src="https://smtpjs.com/v3/smtp.js">
       </script>
       <script src="emailNotification.js"></script> */}
-<html>  
-  
-  <head>
-    <title>Contact Form</title>
-    <link rel='stylesheet' href='Form2.css'/>
-  </head>
-  <body className='body'>
-  <div className="contact-container">
-          <form action="https://api.web3forms.com/submit" method="POST" className="contact-left">
-            <div className="contact-left-title">
-              <h2>Get in touch</h2>
-              <hr />
+      <html>
+
+        <head>
+          <title>Contact Form</title>
+          <link rel='stylesheet' href='Form2.css' />
+        </head>
+        <body className='body'>
+          <div className="contact-container">
+            <form id="Form" action="https://api.web3forms.com/submit" method="POST" className="contact-left">
+              <div className="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr />
+              </div>
+              <input type="hidden" name="access_key" value="91a2a60c-9203-4233-8829-fc09376b3801" />
+
+              <input type="text" name="name" placeholder="Your Name" className="contact-item" required />
+              <input type="email" name="email" placeholder="Your email" className="contact-item" required />
+              <textarea name="message" placeholder="Your Message ..." className="contact-item" required />
+              <button type="submit">Submit <img src={img1} alt="arrow" /></button>
+            </form>
+
+            <div className="contact-right">
+              <img src={img2} alt="background image"></img>
             </div>
-            <input type="hidden" name="access_key" value="91a2a60c-9203-4233-8829-fc09376b3801" />
-
-            <input type="text" name="name" placeholder="Your Name" className="contact-item" required />
-            <input type="email" name="email" placeholder="Your email" className="contact-item" required />
-            <textarea name="message" placeholder="Your Message ..." className="contact-item" required />
-            <button type="submit">Submit <img src={img1} alt="arrow" /></button>
-          </form>
-
-          <div className="contact-right">
-            <img src={img2} alt="background image"></img>
           </div>
-        </div>
-  </body>
-</html>
-    
-        
+        </body>
+      </html>
+
+
     </>
   )
 }
