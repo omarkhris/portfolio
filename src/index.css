@@ -46,3 +46,15 @@ ul{
   transition: 0.3s;
 }
 
+
+
+hr{
+  display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    width: 100%; 
+    /* border: none; */
+    height: 0.002rem;  
+    color: #fff;
+}

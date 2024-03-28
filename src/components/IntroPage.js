@@ -2,7 +2,6 @@ import React from 'react'
 import intro from "../assets/intro-bg.jpg"
 import "./IntroPage.css"
 import { Link } from 'react-router-dom'
-// import urlResume from 'http://omaresume.s3.amazonaws.com/OMARALRESUME.pdf'
 import { useState } from 'react'
 const IntroPage = () => {
 
@@ -39,7 +38,6 @@ const IntroPage = () => {
           <button className='btn' onClick={() => {
             const target = document.getElementById('target');
             target.scrollIntoView({ behavior: 'smooth', block: 'start' }
-
             )
           }}>About me</button>
           <button onClick={handleButtonClick} className='btn'>Resume</button>

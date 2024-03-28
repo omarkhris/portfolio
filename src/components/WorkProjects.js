@@ -12,10 +12,7 @@ const WorkProjects = (props) => {
                 <p>{props.text}</p>
                 <div className="card-btns">
                     <Link to={props.view} className="btn">
-                        MORE
-                    </Link>
-                    <Link to="" className="btn">
-                        Source
+                     repo 
                     </Link>
                 </div>
             </div>

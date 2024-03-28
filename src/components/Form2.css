@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-/* body{
+body .body{
     font-family: 'Outfit';
     background: linear-gradient(#ffdad5,#fff7f9);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+} 
 
 
 .contact-container{

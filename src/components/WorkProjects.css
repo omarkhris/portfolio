@@ -10,11 +10,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
+    /* display: inline-block; */
 }
 
 .container{
-    background: #1a1919;
+    background: #414141;
     padding: 1.2rem 1rem;
+    border-radius: 2%;
 }
 
 .container img{

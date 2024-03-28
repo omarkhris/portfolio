@@ -13,6 +13,7 @@ import mar from "../assets/mm.png"
 const AboutContent = () => {
     return ( 
     <div>
+        <hr></hr>
         <section id="about">
             <p className="section_text_p1">Get To Know More</p>
             <h1 className="title">About me</h1>
@@ -31,8 +32,7 @@ const AboutContent = () => {
                             <Link to="/about">  <img
                                 src={exp}
                                 alt="experience_icon"
-                                className="icon"
-                            />
+                                className="icon"/>
                                 <h3>Experience</h3>
                                 <p>2 years <br /> Software Development</p> </Link>
                         </div>
@@ -42,8 +42,7 @@ const AboutContent = () => {
                             <Link to="/about"> <img
                                 src={react2}
                                 alt="education_icon"
-                                className="icon"
-                            />
+                                className="icon"/>
                                 <h3>Education</h3>
                                 <p>B.Cs. University Of Jordan <br />M.Cs. Maharishi International University<br/> (Attending)</p>
                             </Link>  
@@ -64,11 +63,13 @@ const AboutContent = () => {
                             onClick={()=>window.location.href='/#exper'}
                         />
                     </div>
-
-                </div>
+                
+                </div><hr></hr>
             </div>
         </section>
+        
         <section id = "exper">
+        
         <p className="section_text_p1">Exlpore My</p>
         <h1 className='title'>Experience</h1>
         <div className='experience-details-container'>
@@ -220,6 +221,7 @@ const AboutContent = () => {
             </div>
         </div>
     </section>
+        
        </div>
     )
 }
