@@ -168,8 +168,19 @@ const AboutContent = () => {
                                 className='icon' 
                             />
                             <div>
-                                <h3>PostgresSQL</h3>
+                                <h3>SQL</h3>
                                 <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                                src={mar}
+                                alt='experience icon'
+                                className='icon' 
+                            />
+                            <div>
+                                <h3>NoSQL</h3>
+                                <p>beginner</p>
                             </div>
                         </article>
                         <article>
