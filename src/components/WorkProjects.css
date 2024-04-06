@@ -28,22 +28,44 @@
     padding: 1rem;
 }
 
-.card-details p{
+.card-details {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff; /* Set text color */
+}
+
+.card-details p {
+    margin-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
 }
 
-.card-btns{
+.card-btns {
     display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
+    justify-content: space-between; /* Align buttons to the right */
+    margin-top: auto; /* Push buttons to the bottom */
 }
 
-.card-btns .btn{
+.card-btns .btn {
     padding: 0.5rem 1rem;
+    margin-right: 0.5rem; /* Add margin between the buttons */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add button border radius */
+    cursor: pointer; /* Add pointer cursor on hover */
+    font-size: 14px; /* Set font size */
 }
 
+.card-btns .btn:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+.card-btns .btn:first-child {
+    /* margin-right: 10px; */
+    margin-top: 15px ;
+    /* margin-bottom: 0px; Adjust the value as needed */
+}
 
 @media screen and (max-width: 1020px){
     .project-container{
