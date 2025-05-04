@@ -4,15 +4,17 @@ import IntroPage from '../components/IntroPage'
 import Footer from '../components/Footer'
 import AboutContent from '../components/AboutContent'
 import Project from './Project'
+import ProgressPage from '../components/Progresspage'
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <IntroPage />
+      {/* <Navbar />
+      <IntroPage /> */}
       {/* <Project /> */}
-      <AboutContent />
-      <Footer />
+      {/* <AboutContent />
+      <Footer /> */}
+      <ProgressPage />
     </div>
   )
 }
